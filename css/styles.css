@@ -135,7 +135,7 @@ margin-top:50px;
 }
 
 .contact-form-container{
-    margin:0;
+    margin: -70px auto 0px;
 }
 
 .contact-form{
@@ -151,14 +151,35 @@ margin-top:50px;
   color: #0c9e1b;
   font-weight:bold;
   position:relative; 
+  right:15px;
+  left:15px;
+  top:10px;
+  bottom:10px;
+
+}
+
+td {
+    padding: 0px 0px 20px 10px;
+}
+
+.contact-form input{
+    position:relative; 
+    right:10px;
+    left:20px;
+    top:10px;
+    bottom:10px;
+
+}
+
+.contact-label{
+    position:absolute;
+    margin-top: -12px;
 
 }
 
 #message {
     width:50%;
     position: relative;
-    top:10px;
-    left:15px;
   
 }
 
