@@ -3,7 +3,14 @@ body{
     text-align:center;
     font-family:"Montserrat",sans-serif;
     background-color: #e7e1f9;
+    background-image:url("../Images/shattered.png");
 
+}
+
+a{
+    font-family:"Montserrat",sans-serif;
+    text-decoration:none;
+    color:#05a515;
 }
 
 
@@ -42,6 +49,7 @@ p{
 
 .nav-container{
     background-color:#0fd223ad;
+
 }
 
 
@@ -49,6 +57,8 @@ p{
     background-color:#0fd223ad;
     overflow: hidden;
     display:inline-block;
+ 
+
 }
 
 .navbar a{
@@ -75,6 +85,7 @@ p{
     position:relative;
     padding:100px;
     margin: 0px auto 100px;
+    background-image:url("../Images/shattered.png");
 }
 
 .intro{
@@ -85,6 +96,7 @@ p{
 .middle-container{
     background-color:#e7e1f9;
     margin:100px 0;
+    background-image:url("../Images/shattered.png");
 
 }
 
@@ -113,6 +125,15 @@ p{
     text-align:left;
 }
 
+.contact-me{
+    height:400px;
+    margin:auto;
+}
+
+#contact-btn{
+margin-top:50px;
+}
+
 .contact-form-container{
     margin:0;
 }
@@ -129,6 +150,7 @@ p{
 .contact-form label{
   color: #0c9e1b;
   font-weight:bold;
+  position:relative; 
 
 }
 
@@ -152,6 +174,7 @@ p{
     padding-top:10px;
     padding-bottom:20px;
     background-color:#0fd223ad;
+    background-image:url("../Images/white-bed-sheet.png");
 }
 
 .bottom-container h3{
@@ -188,16 +211,19 @@ width:140px;
 	text-decoration:none;
 	text-align:center;
 	text-shadow:0px 1px 0px #283966;
-}.btn:hover {
+}
+.btn:hover {
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #05a515), color-stop(1, #0fd222) );
 	background:-moz-linear-gradient( center top, #05a515 5%, #0fd222 100% );
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#05a515', endColorstr='#0fd222');
 	background-color:#05a515;
-}.btn:active {
+}
+.btn:active {
 	position:relative;
 	top:1px;
 }
 .footer-icon{
-    height:30px;
-    width:30px;
+    height:50px;
+    width:50px;
+    margin:10px 20px;
 }
